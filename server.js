@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 10000;
 
 app.use('/', createProxyMiddleware({
-  target: 'https://777.com',
+  target: 'https://claude.ai',
   changeOrigin: true,
   ws: true,
   followRedirects: true,
